@@ -457,7 +457,7 @@ __JSON Advantage__
 ### Sql Query:-
 #### Create database
 ```sql
-create database mohit
+create database <databse_name>
 ```
 #### Rename database
 ```sql

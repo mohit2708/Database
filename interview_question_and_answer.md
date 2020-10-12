@@ -493,17 +493,21 @@ SELECT salary
 FROM (SELECT salary FROM employees ORDER BY salary DESC LIMIT 2) AS Emp ORDER BY salary LIMIT 1;
 ```
 ```sql
-SELECT MAX(salary) FROM employees WHERE salary NOT IN ( SELECT Max(salary) FROM employees);
+SELECT MAX(salary) FROM employees WHERE salary NOT IN ( SELECT Max(salary) FROM employees); (OR)
+SELECT MAX (SAL) FROM EMP WHERE SAL < (SELECT MAX (SAL) FROM EMP);
 ```
-```sql
-SELECT MAX (SAL) FROM EMP WHERE SAL &lt; (SELECT MAX (SAL) FROM EMP)
-```
+
 ```sql
 Using Sub query and < operator instead of IN clause:-
 SELECT MAX(salary)
 From employees
 WHERE salary < ( SELECT Max(salary) FROM employees);
 ```
+
+### Ques. Department wise highest Salary?
+|:--:|:--:|
+|depno|sal|
+|sdgf|dgf|
 
 
 ### Ques. 3rd highest salary?

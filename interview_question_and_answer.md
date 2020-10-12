@@ -505,9 +505,9 @@ WHERE salary < ( SELECT Max(salary) FROM employees);
 ```
 
 ### Ques. Department wise highest Salary?
-|:--:|:--:|
-|depno|sal|
-|sdgf|dgf|
+| depno | sal |
+|:----:|:---------:|
+| ghkg |bhjklhjk|
 
 
 ### Ques. 3rd highest salary?

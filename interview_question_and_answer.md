@@ -856,6 +856,12 @@ Ques. | Oracle | SQL | My Sql
 __Check version__ | |  | 1.select version() <br> 2.SHOW VARIABLES LIKE "%version%";
 __Top 5 Salary__ | SELECT SAL FROM(SELECT DISTINCT SAL FROM EMP WHERE SAL IS NOT NULL  ORDER BY SAL DESC)WHERE ROWNUM <6; | select top 5 sal from saxena order by sal desc; | SELECT  slaery FROM emp ORDER BY slaery DESC LIMIT 2
 __5th highest salary__ | SELECT Max(SAL) FROM(SELECT DISTINCT SAL FROM EMP WHERE SAL IS NOT NULL  ORDER BY SAL DESC)WHERE ROWNUM <6; | | select * from emp group by slaery order by slaery desc limit n-1,1
+__Sub query__ | | | select sal from emp where sal = (select max(sal) from emp  where sal <> (select max(sal) from emp))
+__Select max sal all__ | | | select * from emp where salery=(select max(salery) from emp);
+__Rename database__ | | ALTER DATABASE old_datbase MODIFY = new_database | 
+__Create table__ | CREATE TABLE table_name <br> ( <br> column_name1 data_type(size), <br> column_name2 data_type(size), <br> column_name3 data_type(size), <br> .... <br> ); | | 
+
+
 
 
 

@@ -851,4 +851,12 @@ mysql[SELECT NOW(),CURDATE(),CURTIME()]
 ```
 
 
+Ques. | Oracle | SQL | My Sql
+------------ | ------------- | ------------ | -------------
+__Check version__ | |  | 1.select version() 2.SHOW VARIABLES LIKE "%version%";
+__Top 5 Salary__ | SELECT SAL FROM(SELECT DISTINCT SAL FROM EMP WHERE SAL IS NOT NULL  ORDER BY SAL DESC)WHERE ROWNUM <6; | select top 5 sal from saxena order by sal desc; | SELECT  slaery FROM emp ORDER BY slaery DESC LIMIT 2
+ 
+
+Content in the first column | Content in the second column
+
 

@@ -859,7 +859,8 @@ __5th highest salary__ | SELECT Max(SAL) FROM(SELECT DISTINCT SAL FROM EMP WHERE
 __Sub query__ | | | select sal from emp where sal = (select max(sal) from emp  where sal <> (select max(sal) from emp))
 __Select max sal all__ | | | select * from emp where salery=(select max(salery) from emp);
 __Rename database__ | | ALTER DATABASE old_datbase MODIFY = new_database | 
-__Create table__ | CREATE TABLE table_name <br> ( <br> column_name1 data_type(size), <br> column_name2 data_type(size), <br> column_name3 data_type(size), <br> .... <br> ); | | 
+__Create table__ | CREATE TABLE table_name <br> ( <br> column_name1 data_type(size), <br> column_name2 data_type(size), <br> column_name3 data_type(size), <br> .... <br> ); | CREATE TABLE table_name <br> ( <br> id int AUTO_INCREMENT primary key, <br> column_name1 data_type(size), <br> column_name2 data_type(size), <br> column_name3 data_type(size), <br> .... <br> ); | CREATE TABLE table_name <br> ( <br> id int AUTO_INCREMENT primary key, <br> column_name1 data_type(size), <br> column_name2 data_type(size), <br> column_name3 data_type(size), <br> .. <br> );
+
 
 
 

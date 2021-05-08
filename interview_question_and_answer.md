@@ -860,6 +860,11 @@ __Sub query__ | | | select sal from emp where sal = (select max(sal) from emp  w
 __Select max sal all__ | | | select * from emp where salery=(select max(salery) from emp);
 __Rename database__ | | ALTER DATABASE old_datbase MODIFY = new_database | 
 __Create table__ | CREATE TABLE table_name <br> ( <br> column_name1 data_type(size), <br> column_name2 data_type(size), <br> column_name3 data_type(size), <br> .... <br> ); | CREATE TABLE table_name <br> ( <br> id int AUTO_INCREMENT primary key, <br> column_name1 data_type(size), <br> column_name2 data_type(size), <br> column_name3 data_type(size), <br> .... <br> ); | CREATE TABLE table_name <br> ( <br> id int AUTO_INCREMENT primary key, <br> column_name1 data_type(size), <br> column_name2 data_type(size), <br> column_name3 data_type(size), <br> .. <br> );
+__Rename table__ | ALTER TABLE old_table_name rename to new_table_name; | exec sp_rename 'old table_name','newtable name' <br> RENAME TABLE tbl_name TO new_tbl_name | RENAME TABLE tbl_name TO new_tbl_name
+__Delete table__ | Delete table_name; (only table data del)drop table persons; | drop table persons; | drop table persons;
+__Insert data in a table or a  particular column__ | INSERT INTO emp VALUES (001,'saxena','mohit','mainpuri','mnq') <br> SQL>INSERT INTO emp(EMPNO,ENAME) VALUES(2,'DDDD'); | INSERT INTO Persons VALUES (001,'saxena','mohit','mainpuri','mnq') <br> INSERT INTO table_name (column1,column2,column3,...) VALUES ('value1','value2','value3',...); | INSERT INTO table_name (column1,column2,column3,...) VALUES ('value1','value2','value3',...); 
+
+
 
 
 

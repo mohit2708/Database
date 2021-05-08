@@ -765,90 +765,7 @@ write into the data item.
 SQL&gt;DELETE FROM EMP WHERE ROWID NOT IN (SELECT MAX (ROWID) FROM EMP GROUP BY
 ROLL)
 
-```
-?	Oracle	SQL	My Sql
 
-Check version			1.select version()
-2.SHOW VARIABLES LIKE "%version%";
-
-Top 5 Salary	SELECT SAL FROM(SELECT DISTINCT SAL FROM EMP WHERE SAL IS NOT NULL  ORDER BY SAL DESC)WHERE ROWNUM <6;	select top 5 sal from saxena order by sal desc;	SELECT  slaery
-FROM emp
-ORDER BY slaery DESC
-LIMIT 2
-
-5th highest salary	SELECT Max(SAL) FROM(SELECT DISTINCT SAL FROM EMP WHERE SAL IS NOT NULL  ORDER BY SAL DESC)WHERE ROWNUM <6;		select * from emp
-group by slaery
-order by slaery desc
- limit n-1,1
-
-Sub query			select sal from emp
-where sal = (select max(sal) from emp  where sal <> (select max(sal) from emp))
-Select max sal all			select * from emp where salery=(select max(salery) from emp) ;
-
-Rename database		ALTER DATABASE old_datbase MODIFY = new_database	
-Create table	CREATE TABLE table_name
-(
-column_name1 data_type(size),
-column_name2 data_type(size),
-column_name3 data_type(size),
-....
-);	CREATE TABLE table_name
-(
-id int AUTO_INCREMENT primary key, 
-column_name1 data_type(size),
-column_name2 data_type(size),
-column_name3 data_type(size),
-....
-);	CREATE TABLE table_name
-(
-id int AUTO_INCREMENT primary key, 
-column_name1 data_type(size),
-column_name2 data_type(size),
-column_name3 data_type(size),
-..
-);
-Rename table	ALTER TABLE old_table_name rename to new_table_name;	exec sp_rename 'old table_name','newtable name'
-RENAME TABLE tbl_name TO new_tbl_name
-	RENAME TABLE tbl_name TO new_tbl_name
-
-Delete table	Delete table_name; (only table data del)drop table persons;	drop table persons;	drop table persons;
-Insert data in a table or a  particular column
-	INSERT INTO emp VALUES (001,'saxena','mohit','mainpuri','mnq')
-SQL>INSERT INTO emp(EMPNO,ENAME) VALUES(2,'DDDD');	INSERT INTO Persons VALUES (001,'saxena','mohit','mainpuri','mnq')
-INSERT INTO table_name (column1,column2,column3,...)
-VALUES ('value1','value2','value3',...);	INSERT INTO table_name (column1,column2,column3,...)
-VALUES ('value1','value2','value3',...);
-
-Create a table from another table	CREATE TABLE JOLLY AS SELECT * FROM EMP;  //constraint will not copy(pk,uk..)
-		CREATE TABLE JOLLY AS SELECT * FROM EMP;  
-Copy structure of table not data	CREATE TABLE JOLLY AS (SELECT * FROM EMP WHERE EMPNO=-1);
-		CREATE TABLE JOLLY AS SELECT * FROM EMP WHERE EMPNO=-1;
-
-Insert data in another table			
-Add column	ALTER TABLE table_name
-ADD column_name datatype(size), column_name datatype(size));	ALTER TABLE table_name
-ADD column_name datatype	
-Rename column	ALTER TABLE table_name RENAME COLUMN old_name to new_name;	exec sp_rename 'persons.idproof' , 'idn','column'
-mysql[alter table tablename change oldname newname varchar (10); 
-]	
-Delete column	ALTER TABLE table_name
-DROP COLUMN column_name;	ALTER TABLE table_name
-DROP COLUMN column_name	
-insert/update in a column	update emp set city='noida' where lastname='saxena'	update table_name set column_name='value' where id='001'	update table_name set column_name='value' where id='001'
-Rename Datatype	ALTER TABLE LALU MODIFY (MOBILE NUMBER(15));	alter table table_name
-modify column gender enum('male', 'female');	
-Row delete	delete from table_name where ID=01;	delete from table_name where ID=01;	
-Where condition		SELECT * FROM table_name WHERE City='etwah';
-select * from user where country !=''	
-Order by			select * from table_name order by column_name desc/asc
-
-Like condition			SELECT * FROM tab_name
-WHERE Coulumn_name NOT LIKE '%moh%';
-
-
-Current date			select GETDATE();
-mysql[SELECT NOW(),CURDATE(),CURTIME()]
-```
 
 
 Ques. | Oracle | SQL | My Sql
@@ -862,7 +779,10 @@ __Rename database__ | | ALTER DATABASE old_datbase MODIFY = new_database |
 __Create table__ | CREATE TABLE table_name <br> ( <br> column_name1 data_type(size), <br> column_name2 data_type(size), <br> column_name3 data_type(size), <br> .... <br> ); | CREATE TABLE table_name <br> ( <br> id int AUTO_INCREMENT primary key, <br> column_name1 data_type(size), <br> column_name2 data_type(size), <br> column_name3 data_type(size), <br> .... <br> ); | CREATE TABLE table_name <br> ( <br> id int AUTO_INCREMENT primary key, <br> column_name1 data_type(size), <br> column_name2 data_type(size), <br> column_name3 data_type(size), <br> .. <br> );
 __Rename table__ | ALTER TABLE old_table_name rename to new_table_name; | exec sp_rename 'old table_name','newtable name' <br> RENAME TABLE tbl_name TO new_tbl_name | RENAME TABLE tbl_name TO new_tbl_name
 __Delete table__ | Delete table_name; (only table data del)drop table persons; | drop table persons; | drop table persons;
-__Insert data in a table or a  particular column__ | INSERT INTO emp VALUES (001,'saxena','mohit','mainpuri','mnq') <br> SQL>INSERT INTO emp(EMPNO,ENAME) VALUES(2,'DDDD'); | INSERT INTO Persons VALUES (001,'saxena','mohit','mainpuri','mnq') <br> INSERT INTO table_name (column1,column2,column3,...) VALUES ('value1','value2','value3',...); | INSERT INTO table_name (column1,column2,column3,...) VALUES ('value1','value2','value3',...); 
+__Insert data in a table or a  particular column__ | INSERT INTO emp VALUES (001,'saxena','mohit','mainpuri','mnq') <br> SQL>INSERT INTO emp(EMPNO,ENAME) VALUES(2,'DDDD'); | INSERT INTO Persons VALUES (001,'saxena','mohit','mainpuri','mnq') <br> INSERT INTO table_name (column1,column2,column3,...) VALUES ('value1','value2','value3',...); | INSERT INTO table_name (column1,column2,column3,...) VALUES ('value1','value2','value3',...);
+__Create a table from another table__ | CREATE TABLE JOLLY AS SELECT * FROM EMP;  //constraint will not copy(pk,uk..) | | CREATE TABLE JOLLY AS SELECT * FROM EMP;
+__Copy structure of table not data__ | CREATE TABLE JOLLY AS (SELECT * FROM EMP WHERE EMPNO=-1); | | CREATE TABLE JOLLY AS SELECT * FROM EMP WHERE EMPNO=-1;
+
 
 
 

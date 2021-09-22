@@ -24,8 +24,10 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 ### Ques. What is database?
-Database is nothing but an organized form of data for easy access, storing, retrieval and managing
-of data. This is also known as structured form of data which can be accessed in many ways.
+* A database is an organized collection of data, stored and retrieved digitally from a remote or local computer system. Databases can be vast and complex, and such databases are developed using fixed design and modeling approaches.
+* Database is nothing but an organized form of data for easy access, storing, retrieval and managing of data. 
+* This is also known as structured form of data which can be accessed in many ways.
+
 
 **[⬆ Back to Top](#table-of-contents)**
 ### Ques. What Is Sql?
@@ -50,6 +52,16 @@ RDBMS stands for Relational Database Management System. RDBMS store the data int
 |Normalization is not present in DBMS|Normalization is present in RDBMS|
 |DBMS does not support distributed data hnbase|RDBMS support distributed database|
 
+**[⬆ Back to Top](#table-of-contents)**
+### Ques. What are Constraints in SQL?
+Constraints are used to specify the rules concerning data in the table. It can be applied for single or multiple fields in an SQL table during the creation of the table or after creating using the ALTER TABLE command. The constraints are:<br>
+* __NOT NULL__ - Restricts NULL value from being inserted into a column.
+__CHECK__ - Verifies that all values in a field satisfy a condition.
+__DEFAULT__ - Automatically assigns a default value if no value has been specified for the field.
+__UNIQUE__ - Ensures unique values to be inserted into the field.
+__INDEX__ - Indexes a field providing faster retrieval of records.
+__PRIMARY KEY__ - Uniquely identifies each record in a table.
+__FOREIGN KEY__ - Ensures referential integrity for a record in another table.
 
 **[⬆ Back to Top](#table-of-contents)**
 ### Ques. What Is Primary Key?

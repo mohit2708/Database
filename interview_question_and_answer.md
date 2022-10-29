@@ -1,25 +1,25 @@
 ### Table of Contents
 
-| No. | Questions |
-|:----:| ---------|
-|  |[What is database?](#ques-What-is-database)|
-|  |[what is sql?](#ques-Ques-What-is-Sql)|
-|  |[What Is DBMS?](#Ques-What-is-DBMS) |
-|  |[What Is RDBMS?](#Ques-What-is-RDBMS) |
-|  |[What Is RDBMS?](#Ques-What-is-RDBMS) |
-|  |[Difference between DBMS & RDBMS?](#Ques-Difference-between-DBMS-&-RDBMS)|
-|  |[What Is Primary Key?](#ques-What-Is-primary-Key)|
-|  |[What Is Unique Key?](#ques-What-Is-Unique-Key)|
-|  |[What Is Foreign Key?](#ques-What-Is-Foreign Key)|
-|  |[Difference between Primary Key & Unique Key?](#ques-Difference-between-Primary-Key-&-Unique-Key)|
-|  |[Difference between Primary Key & Foreign Key?](#ques-Difference-between-Primary-Key-&-Foreign-Key)|
-|  |[Difference between Delete, Truncate & Drop?](#ques-Difference-between-Delete,-Truncate-&-Drop)
-|  |[What Is Joins?](#ques-What-Is-Joins)
-|  |[Types of Joins?](#ques-Types-of-Joins)
-|  |[What Is Union & Union All?### What is View](#ques-What-Is-Union-&-Union-All)
-|  |[What is View?](#ques-What-is-View)|
-|  |[What is Index?](#ques-What-is-index)|
-|  |
+|  No.  | Questions                                                                                           |
+| :---: | --------------------------------------------------------------------------------------------------- |
+|       | [What is database?](#**ques-What-is-database**)                                                     |
+|       | [what is sql?](#ques-Ques-What-is-Sql)                                                              |
+|       | [What Is DBMS?](#Ques-What-is-DBMS)                                                                 |
+|       | [What Is RDBMS?](#Ques-What-is-RDBMS)                                                               |
+|       | [What Is RDBMS?](#Ques-What-is-RDBMS)                                                               |
+|       | [Difference between DBMS & RDBMS?](#Ques-Difference-between-DBMS-&-RDBMS)                           |
+|       | [What Is Primary Key?](#ques-What-Is-primary-Key)                                                   |
+|       | [What Is Unique Key?](#ques-What-Is-Unique-Key)                                                     |
+|       | [What Is Foreign Key?](#ques-What-Is-Foreign Key)                                                   |
+|       | [Difference between Primary Key & Unique Key?](#ques-Difference-between-Primary-Key-&-Unique-Key)   |
+|       | [Difference between Primary Key & Foreign Key?](#ques-Difference-between-Primary-Key-&-Foreign-Key) |
+|       | [Difference between Delete, Truncate & Drop?](#ques-Difference-between-Delete,-Truncate-&-Drop)     |
+|       | [What Is Joins?](#ques-What-Is-Joins)                                                               |
+|       | [Types of Joins?](#ques-Types-of-Joins)                                                             |
+|       | [What Is Union & Union All?### What is View](#ques-What-Is-Union-&-Union-All)                       |
+|       | [What is View?](#ques-What-is-View)                                                                 |
+|       | [What is Index?](#ques-What-is-index)                                                               |
+|       |
 
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -30,41 +30,41 @@
 
 
 **[⬆ Back to Top](#table-of-contents)**
-### Ques. What Is Sql?
+### **Ques. What Is Sql?**
 * SQL is stands for structure query language. It is a database language used for database creation, deletion, fetching rows and modifying rows etc.
 * It is a kind of ANSI standard language, used with all database. 
 
 **[⬆ Back to Top](#table-of-contents)**
-### Ques. What Is DBMS?
+### **Ques. What Is DBMS?**
 * A database management system is program that control creation, maintenance and use of a database.
 * DBMS can be termed as File Manager that manages data in a database rather than saving it in ﬁle systems.
 
 **[⬆ Back to Top](#table-of-contents)**
-### What is RDBMS?
+### **What is RDBMS?**
 RDBMS stands for Relational Database Management System. RDBMS store the data into the collection of tables, which is related by common fields between the columns of the table. It also provides relational operators to manipulate the data stored into the tables.
 
 
 **[⬆ Back to Top](#table-of-contents)**
-### Ques. Difference between DBMS & RDBMS?
-|DBMS|RDBMS|
-|:---:|:---:|
-|DBMS applications store data as file|RDBMS applications store data in a tabular form|
-|Normalization is not present in DBMS|Normalization is present in RDBMS|
-|DBMS does not support distributed data hnbase|RDBMS support distributed database|
+### **Ques. Difference between DBMS & RDBMS?**
+| DBMS                                          | RDBMS                                           |
+| :-------------------------------------------- | :---------------------------------------------- |
+| DBMS applications store data as file          | RDBMS applications store data in a tabular form |
+| Normalization is not present in DBMS          | Normalization is present in RDBMS               |
+| DBMS does not support distributed data hnbase | RDBMS support distributed database              |
 
 **[⬆ Back to Top](#table-of-contents)**
-### Ques. What are Constraints in SQL?
+### **Ques. What are Constraints in SQL?**
 Constraints are used to specify the rules concerning data in the table. It can be applied for single or multiple fields in an SQL table during the creation of the table or after creating using the ALTER TABLE command. The constraints are:<br>
 * __NOT NULL__ - Restricts NULL value from being inserted into a column.
-__CHECK__ - Verifies that all values in a field satisfy a condition.
-__DEFAULT__ - Automatically assigns a default value if no value has been specified for the field.
-__UNIQUE__ - Ensures unique values to be inserted into the field.
-__INDEX__ - Indexes a field providing faster retrieval of records.
-__PRIMARY KEY__ - Uniquely identifies each record in a table.
-__FOREIGN KEY__ - Ensures referential integrity for a record in another table.
+* __CHECK__ - Verifies that all values in a field satisfy a condition.
+* __DEFAULT__ - Automatically assigns a default value if no value has been specified for the field.
+* __UNIQUE__ - Ensures unique values to be inserted into the field.
+* __INDEX__ - Indexes a field providing faster retrieval of records.
+* __PRIMARY KEY__ - Uniquely identifies each record in a table.
+* __FOREIGN KEY__ - Ensures referential integrity for a record in another table.
 
 **[⬆ Back to Top](#table-of-contents)**
-### Ques. What Is Primary Key?
+### **Ques. What Is Primary Key?**
 * The PRIMARY KEY constraint uniquely identifies each record in a database table. It must contain unique values. A Primary Key column cannot have Null values.
 * A table can have only one primary key, which may consist of single or multiple fields. When multiple fields are used as a primary key, they are called a composite key.<br>
 __Create Primary Key:-__ <br>
@@ -97,50 +97,50 @@ ALTER TABLE table_name ADD PRIMARY KEY (Id)
 ```
 
 **[⬆ Back to Top](#table-of-contents)**
-### Ques. What Is Unique Key?
+### **Ques. What Is Unique Key?**
 * A unique key is a set of one or more than one fields/columns of a table that uniquely identify each record in a database table.
 * The Unique and Primary Key constraints both provide a guarantee for a column or set of columns.
 * A Primary Key consist automatically has a unique constraint define on it.
 
 **[⬆ Back to Top](#table-of-contents)**
-### Ques. What Is Foreign Key?
+### **Ques. What Is Foreign Key?**
 * A foreign key is a key used to link two tables together. This is something called a reference key.
 * Foreign key is a column or a combination of columns whose values match a primary key in a different table.
 * The relationship between two tables matches the primary key in one of the tables with a foreign key in the second table.
 
 **[⬆ Back to Top](#table-of-contents)**
-### Ques. Difference between Primary Key & Unique Key?
-|Primary Key|Unique Key|
-|:---:|:---:|
-|A table can have only one primary key|A table can have more than one unique key|
-|It does not allow null values|Allows null values|
-|Primary key Can be made foreign key into another table|In SQL server, unique key Can be made foreign key into another table|
-|By default it adds a clustered index|By default it adds a unique non-clustered index|
-|We can generate ID automatically with the help of auto increment field. Primary key support auto increment value.|Unique constraint does not support auto increment value.|
+### **Ques. Difference between Primary Key & Unique Key?**
+| Primary Key                                                                                                       | Unique Key                                                           |
+| :---------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------- |
+| A table can have only one primary key                                                                             | A table can have more than one unique key                            |
+| It does not allow null values                                                                                     | Allows null values                                                   |
+| Primary key Can be made foreign key into another table                                                            | In SQL server, unique key Can be made foreign key into another table |
+| By default it adds a clustered index                                                                              | By default it adds a unique non-clustered index                      |
+| We can generate ID automatically with the help of auto increment field. Primary key support auto increment value. | Unique constraint does not support auto increment value.             |
 
 
 **[⬆ Back to Top](#table-of-contents)**
-### Ques. Difference between Primary Key & Foreign Key?
-|Primary Key|Foreign Key|
-|:---:|:---:|
-|A table can have only one primary key|A table can have more than one foreign key|
-|Primary key uniquely identified  a record in the table|Foreign key is a field in the table that is primary key in another table|
-|It does not allow null values|Allows null values|
-|Duplicate not allowed|Duplicate allowed|
-||Foreign key do not automatically create an index.|
+### **Ques. Difference between Primary Key & Foreign Key?**
+| Primary Key                                            | Foreign Key                                                              |
+| :----------------------------------------------------- | :----------------------------------------------------------------------- |
+| A table can have only one primary key                  | A table can have more than one foreign key                               |
+| Primary key uniquely identified  a record in the table | Foreign key is a field in the table that is primary key in another table |
+| It does not allow null values                          | Allows null values                                                       |
+| Duplicate not allowed                                  | Duplicate allowed                                                        |
+|                                                        | Foreign key do not automatically create an index.                        |
 
 **[⬆ Back to Top](#table-of-contents)**
-### Ques. Difference between Delete, Truncate & Drop?
-|Delete|Truncate|Drop|
-|:---:|:---:|:---:|
-|Delete is a DML command|Truncate is DDL command||
-|We can use where clause in delete command|We cannot use where clause with truncate||
-|Delete statement is used to delete a row from a table|Truncate statement is used to remove all the row from a table|Remove table and data|
-|You can rollback data after using delete statement|It is not possible to rollback after using TRUNCATE statement.|Can’t rollback|
-|Delete is slower|Truncate is faster||
+### **Ques. Difference between Delete, Truncate & Drop?**
+| Delete                                                | Truncate                                                       | Drop                  |
+| :---------------------------------------------------- | :------------------------------------------------------------- | :-------------------- |
+| Delete is a DML command                               | Truncate is DDL command                                        |                       |
+| We can use where clause in delete command             | We cannot use where clause with truncate                       |                       |
+| Delete statement is used to delete a row from a table | Truncate statement is used to remove all the row from a table  | Remove table and data |
+| You can rollback data after using delete statement    | It is not possible to rollback after using TRUNCATE statement. | Can’t rollback        |
+| Delete is slower                                      | Truncate is faster                                             |                       |
 
 **[⬆ Back to Top](#table-of-contents)**
-### Ques. What Is Joins?
+### Ques. **What Is Joins?**
 SQL Joins are used to combine rows from two or more tables.
 ```sql
 Customers table:                                      
@@ -184,7 +184,7 @@ Result:
 +----+----------+-----+--------+
 ```
 
-### Ques. Types of Joins?
+### **Ques. Types of Joins?**
 
 __Left Joins :-__ Returns all rows from the left table, even if there are no matches in the right table.<br>
 Table 1 − CUSTOMERS Table
@@ -242,18 +242,18 @@ Result:-
 
 
 **[⬆ Back to Top](#table-of-contents)**
-### Ques. What Is Union & Union All?
+### **Ques. What Is Union & Union All?**
 __Ans.__ Both UNION and UNION ALL Operator combine rows from result sets into a single result set. 
 
 
 **[⬆ Back to Top](#table-of-contents)**
-### Ques. Difference between Union & Union All?
-|Union|Union All|
-|:---:|:---:|
-|Union removes duplicate rows.|Union All does not remove the duplicate rows.|
-|Union uses a distinct sort|Union All does not use a distinct sort|
-|Union can’t work with a column that has a text data type.|Union All can work with all data type column.|
-```php
+### **Ques. Difference between Union & Union All?**
+| Union                                                     | Union All                                     |
+| :-------------------------------------------------------- | :-------------------------------------------- |
+| Union removes duplicate rows.                             | Union All does not remove the duplicate rows. |
+| Union uses a distinct sort                                | Union All does not use a distinct sort        |
+| Union can’t work with a column that has a text data type. | Union All can work with all data type column. |
+```sql
 Select Column1, Column2, Column3 from Table A
 UNION
 Select Column1, Column2, Column3 from Table B
@@ -265,7 +265,7 @@ Select Column1, Column2, Column3 from Table B
 
 
 **[⬆ Back to Top](#table-of-contents)**
-### What is View?
+### **What is View?**
 * A view can contain all rows of a table or select rows from a table. A view can be created from one or many tables which depends on the written SQL query to create a view
 * It is a kind of logical table, having no own data.
 * A view is a virtual table which consists of a subset of data contained in a table. Views are not virtually present, and it takes less space to store. View can have data of one or more tables combined, and it is depending on the relationship.
@@ -284,7 +284,7 @@ SELECT * FROM CUSTOMERS_VIEW;
 ```
 
 **[⬆ Back to Top](#table-of-contents)**
-### What is Index?
+### **What is Index?**
 * An index is used to enhance the performance of SQL Queries.
 * It will get the data using Row Id, avoid full table scan.
 * A database index is a data structure that improves the speed of operation in a table.
@@ -301,7 +301,7 @@ __cluster index:-__ jab kisi table par hum primary key lagate hai to wo cluster 
 __Non cluster index:-__ table mai jis column par select command sabse jyda chalte hai to us column par hum non cluster index bna lete hai.
 
 **[⬆ Back to Top](#table-of-contents)**
-### What is Cursor?
+### **What is Cursor?**
 * WHEN WE USE SELECT STMT IN DATABASE(ORACLE/SQLSERVER/MYSQL) ,   it allocate memory for that known as cursor.
 * A cursor is a pointer to this context area. PL/SQL controls the context area through a Cursor.
 * A Cursor can hold more than one row, but can process only one row at a time. The set of rows the cursor hold is called the active set.
@@ -310,12 +310,12 @@ __Non cluster index:-__ table mai jis column par select command sabse jyda chalt
 
 #### There are two type of cursor in PL/SQL:-
 
-__Implicit cursor:-__
-These are creating by default when DML statement like, INSERT, UPDATE, and DELETE statement are executed. They are also created when a SELECT statement that returns just one row is executed.
-__Implicit cursors__ are automatically created by oracle whenever an SQL statement is executed, when there is no explicit cursor for the statement. Programmers cannot control the implicit cursor and the information in it.
+1. **Implicit cursor:-**
+   * These are creating by default when DML statement like, INSERT, UPDATE, and DELETE statement are executed. They are also created when a SELECT statement that returns just one row is executed.
+   * Implicit cursors are automatically created by oracle whenever an SQL statement is executed, when there is no explicit cursor for the statement. Programmers cannot control the implicit cursor and the information in it.
 
 **[⬆ Back to Top](#table-of-contents)**
-### What is Trigger?
+### **What is Trigger?**
 * • Trigger  are set of structure Query language (SQL) statement that perform particular task. They invoke specific event (after Insert,u,d – before I,u,d)
 * Database triggers are sets of commands that get executed when an event (Before Insert, After Insert, On Update, on delete of a row) occurs on a table.
 * Triggers are special type of stored procedures that are defined to execute automatically in place or after data modification.
@@ -329,14 +329,14 @@ END;
 ```
 
 ### Difference between WHERE and HAVING in SQL?
-| Having | Where |
-|:----:| ---------|
-|Having ke sath GROUP BY use hota hai||
-|Having post filter hai(data fatch hone ke baad filter lagta hai) | where pre filter hai(isme pahle filter lagta hai phir fatch data hota hai)|
-|having can be used only with select command | can be used with select update delete |
-|HAVING is used for column operations.|WHERE is used for row operations|
-|having ke aggrigate function sath kar sakte hai|where ke sath aggrigate function use nahi kar sakte | 
-```php
+| Having                                                           | Where                                                                      |
+| :--------------------------------------------------------------- | :------------------------------------------------------------------------- |
+| Having ke sath GROUP BY use hota hai                             |                                                                            |
+| Having post filter hai(data fatch hone ke baad filter lagta hai) | where pre filter hai(isme pahle filter lagta hai phir fatch data hota hai) |
+| having can be used only with select command                      | can be used with select update delete                                      |
+| HAVING is used for column operations.                            | WHERE is used for row operations                                           |
+| having ke aggrigate function sath kar sakte hai                  | where ke sath aggrigate function use nahi kar sakte                        |
+```sql
 a   c1  40
 a   c2  50
 b   c3  30
@@ -346,10 +346,7 @@ select std, sum(score) as total from record group by std having total>60;
 ```
 
 
-
-
-
-### Ques. Difference between Group By And Order By?
+### **Ques. Difference between Group By And Order By?**
 __Group By:-__ It is used to group our result sets of tables in a database and is often used with Count, Sum, avg etc. 
 ```sql
 Ex:- Select COUNT(state), country from emp group by country.
@@ -359,7 +356,7 @@ __Order By:-__ It changes only order in our result set i.e sorting
 Ex:- Select COUNT(state), country from emp order by country_id..
 ```
 
-### List of Mysql storage Engines/Table Type?
+### **List of Mysql storage Engines/Table Type?**
 Mysql ne apni requirment ke according alag-alag table type diye hai.
 1. MyIsam:-
 * Myisam good for select command.
@@ -380,7 +377,7 @@ Mysql ne apni requirment ke according alag-alag table type diye hai.
 8. federated
 
 
-### WHat is Stored procedure?
+### **Ques. What is Stored procedure?**
 * Stored procedure is a function which cantains a collection of sql quries, the procedure can take inputs, process them and send back output.
 * Stored procedure is a database object which is used to perform some specific task.
 * Stored procedure is called explicitly.
@@ -429,21 +426,19 @@ insert into emp(EMPNO,ENAME,SAL) values(@eno,@enm,@sl);
 end
 ```
 
-### Ques. What is the normalization?
+### **Ques. What is the normalization?**
 * In database design, we start with one single table, with all possible columns. A lot of redundant data would be present since it’s a single table. The process of removing the redundant data, by splitting up the table in a well deﬁned fashion is called
 normalization.
 * Normalization is the process of minimizing redundancy and dependency by organizing fields and table of a database. The main aim of Normalization is to add, delete or modify field that can be made in a single table.
 * A lot of redundant data would be present since it’s a single table. The process of removing the redundant data, by splitting up the table in a well defined fashion is called normalization.
 
-### Ques. What are types of normalization?
-__1. First Normal Form (1NF)__ A relation is said to be in ﬁrst normal form if and only if all underlying domains
-contain atomic values only. After 1NF, we can still have redundant data.<br>
-__2. Second Normal Form (2NF)__ A relation is said to be in 2NF if and only if it is in 1NF and every non key attribute is
-fully dependent on the primary key. After 2NF, we can still have redundant data.<br>
-__3. Third Normal Form (3NF)__ A relation is said to be in 3NF, if and only if it is in 2NF and every non key attribute is non-transitively dependent on the primary key.
+### **Ques. What are types of normalization?**
+1. **First Normal Form (1NF):-** A relation is said to be in ﬁrst normal form if and only if all underlying domains contain atomic values only. After 1NF, we can still have redundant data.
+2. **Second Normal Form (2NF):-** A relation is said to be in 2NF if and only if it is in 1NF and every non key attribute is fully dependent on the primary key. After 2NF, we can still have redundant data.
+3. **Third Normal Form (3NF):-** A relation is said to be in 3NF, if and only if it is in 2NF and every non key attribute is non-transitively dependent on the primary key.
 
 ```
-Types of normalization:
+**Types of normalization:**
 A. First normal form (1NF): This should remove all the duplicate columns from the table.
 Creation of tables for the related data and identification of unique columns.
 B. Second normal form (2NF): Meeting all requirements of the first normal form. Placing the
@@ -455,7 +450,7 @@ D. Fourth normal form (4NF): Meeting all the requirements of third normal form a
 not have multi- valued dependencies.
 ```
 
-# Ques. What is Json?
+### **Ques. What is Json?**
 * Json stands for Javascript Object Notation and Json is lightweight data interchange format.
 * Json is syntax for storing and exchanging data.
 * it is easy for machine to parse and recreates.
@@ -466,7 +461,7 @@ __JSON Advantage__
 * JSON is not extensible.
 
 
-### Sql Query:-
+# **Sql Query:-**
 #### Create database
 ```sql
 create database <databse_name>
@@ -497,8 +492,8 @@ column_name3 data_type(size),
 RENAME TABLE tbl_name TO new_tbl_name
 ```
 
-### Ques. 2nd highest salary?
-__Using Subquery:-__
+#### 2nd highest salary?
+* __Using Subquery:-__
 ```sql
 Using Limit:-
 SELECT salary
@@ -516,15 +511,15 @@ From employees
 WHERE salary < ( SELECT Max(salary) FROM employees);
 ```
 
-### Ques. Department wise highest Salary?
-| deptno | sal |
-|:----:|:----:|
-|10|5000|
-|30|4000|
-|10|2000|
-|20|2000|
-|20|3000|
-|20|1000|
+#### Ques. Department wise highest Salary?
+| deptno | sal  |
+| :----- | :--- |
+| 10     | 5000 |
+| 30     | 4000 |
+| 10     | 2000 |
+| 20     | 2000 |
+| 20     | 3000 |
+| 20     | 1000 |
 ```sql
 SELECT Deptno, MAX(Sal) FROM EmpDetails GROUP BY Deptno;
 |deptno|sal|
@@ -533,9 +528,7 @@ SELECT Deptno, MAX(Sal) FROM EmpDetails GROUP BY Deptno;
 |20|3000|
 ```
 
-
-
-### Ques. 3rd highest salary?
+#### Ques. 3rd highest salary?
 ```sql 
 SELECT MAX (SAL) FROM EMP WHERE SAL &lt; (SELECT MAX (SAL) FROM EMP WHERE
 SAL &lt; (SELECT MAX (SAL) FROM EMP))
@@ -780,25 +773,20 @@ ROLL)
 
 
 
-Ques. | Oracle | SQL | My Sql
------------- | ------------- | ------------ | -------------
-__Check version__ | |  | 1.select version() <br> 2.SHOW VARIABLES LIKE "%version%";
-__Top 5 Salary__ | SELECT SAL FROM(SELECT DISTINCT SAL FROM EMP WHERE SAL IS NOT NULL  ORDER BY SAL DESC)WHERE ROWNUM <6; | select top 5 sal from saxena order by sal desc; | SELECT  slaery FROM emp ORDER BY slaery DESC LIMIT 2
-__5th highest salary__ | SELECT Max(SAL) FROM(SELECT DISTINCT SAL FROM EMP WHERE SAL IS NOT NULL  ORDER BY SAL DESC)WHERE ROWNUM <6; | | select * from emp group by slaery order by slaery desc limit n-1,1
-__Sub query__ | | | select sal from emp where sal = (select max(sal) from emp  where sal <> (select max(sal) from emp))
-__Select max sal all__ | | | select * from emp where salery=(select max(salery) from emp);
-__Rename database__ | | ALTER DATABASE old_datbase MODIFY = new_database | 
-__Create table__ | CREATE TABLE table_name <br> ( <br> column_name1 data_type(size), <br> column_name2 data_type(size), <br> column_name3 data_type(size), <br> .... <br> ); | CREATE TABLE table_name <br> ( <br> id int AUTO_INCREMENT primary key, <br> column_name1 data_type(size), <br> column_name2 data_type(size), <br> column_name3 data_type(size), <br> .... <br> ); | CREATE TABLE table_name <br> ( <br> id int AUTO_INCREMENT primary key, <br> column_name1 data_type(size), <br> column_name2 data_type(size), <br> column_name3 data_type(size), <br> .. <br> );
-__Rename table__ | ALTER TABLE old_table_name rename to new_table_name; | exec sp_rename 'old table_name','newtable name' <br> RENAME TABLE tbl_name TO new_tbl_name | RENAME TABLE tbl_name TO new_tbl_name
-__Delete table__ | Delete table_name; (only table data del)drop table persons; | drop table persons; | drop table persons;
-__Insert data in a table or a  particular column__ | INSERT INTO emp VALUES (001,'saxena','mohit','mainpuri','mnq') <br> SQL>INSERT INTO emp(EMPNO,ENAME) VALUES(2,'DDDD'); | INSERT INTO Persons VALUES (001,'saxena','mohit','mainpuri','mnq') <br> INSERT INTO table_name (column1,column2,column3,...) VALUES ('value1','value2','value3',...); | INSERT INTO table_name (column1,column2,column3,...) VALUES ('value1','value2','value3',...);
-__Create a table from another table__ | CREATE TABLE JOLLY AS SELECT * FROM EMP;  //constraint will not copy(pk,uk..) | | CREATE TABLE JOLLY AS SELECT * FROM EMP;
-__Copy structure of table not data__ | CREATE TABLE JOLLY AS (SELECT * FROM EMP WHERE EMPNO=-1); | | CREATE TABLE JOLLY AS SELECT * FROM EMP WHERE EMPNO=-1;
-
-
-
-
-
+| Ques.                                              | Oracle                                                                                                                                                    | SQL                                                                                                                                                                                               | My Sql                                                                                                                                                                                          |
+| -------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| __Check version__                                  |                                                                                                                                                           |                                                                                                                                                                                                   | 1.select version() <br> 2.SHOW VARIABLES LIKE "%version%";                                                                                                                                      |
+| __Top 5 Salary__                                   | SELECT SAL FROM(SELECT DISTINCT SAL FROM EMP WHERE SAL IS NOT NULL  ORDER BY SAL DESC)WHERE ROWNUM <6;                                                    | select top 5 sal from saxena order by sal desc;                                                                                                                                                   | SELECT  slaery FROM emp ORDER BY slaery DESC LIMIT 2                                                                                                                                            |
+| __5th highest salary__                             | SELECT Max(SAL) FROM(SELECT DISTINCT SAL FROM EMP WHERE SAL IS NOT NULL  ORDER BY SAL DESC)WHERE ROWNUM <6;                                               |                                                                                                                                                                                                   | select * from emp group by slaery order by slaery desc limit n-1,1                                                                                                                              |
+| __Sub query__                                      |                                                                                                                                                           |                                                                                                                                                                                                   | select sal from emp where sal = (select max(sal) from emp  where sal <> (select max(sal) from emp))                                                                                             |
+| __Select max sal all__                             |                                                                                                                                                           |                                                                                                                                                                                                   | select * from emp where salery=(select max(salery) from emp);                                                                                                                                   |
+| __Rename database__                                |                                                                                                                                                           | ALTER DATABASE old_datbase MODIFY = new_database                                                                                                                                                  |
+| __Create table__                                   | CREATE TABLE table_name <br> ( <br> column_name1 data_type(size), <br> column_name2 data_type(size), <br> column_name3 data_type(size), <br> .... <br> ); | CREATE TABLE table_name <br> ( <br> id int AUTO_INCREMENT primary key, <br> column_name1 data_type(size), <br> column_name2 data_type(size), <br> column_name3 data_type(size), <br> .... <br> ); | CREATE TABLE table_name <br> ( <br> id int AUTO_INCREMENT primary key, <br> column_name1 data_type(size), <br> column_name2 data_type(size), <br> column_name3 data_type(size), <br> .. <br> ); |
+| __Rename table__                                   | ALTER TABLE old_table_name rename to new_table_name;                                                                                                      | exec sp_rename 'old table_name','newtable name' <br> RENAME TABLE tbl_name TO new_tbl_name                                                                                                        | RENAME TABLE tbl_name TO new_tbl_name                                                                                                                                                           |
+| __Delete table__                                   | Delete table_name; (only table data del)drop table persons;                                                                                               | drop table persons;                                                                                                                                                                               | drop table persons;                                                                                                                                                                             |
+| __Insert data in a table or a  particular column__ | INSERT INTO emp VALUES (001,'saxena','mohit','mainpuri','mnq') <br> SQL>INSERT INTO emp(EMPNO,ENAME) VALUES(2,'DDDD');                                    | INSERT INTO Persons VALUES (001,'saxena','mohit','mainpuri','mnq') <br> INSERT INTO table_name (column1,column2,column3,...) VALUES ('value1','value2','value3',...);                             | INSERT INTO table_name (column1,column2,column3,...) VALUES ('value1','value2','value3',...);                                                                                                   |
+| __Create a table from another table__              | CREATE TABLE JOLLY AS SELECT * FROM EMP;  //constraint will not copy(pk,uk..)                                                                             |                                                                                                                                                                                                   | CREATE TABLE JOLLY AS SELECT * FROM EMP;                                                                                                                                                        |
+| __Copy structure of table not data__               | CREATE TABLE JOLLY AS (SELECT * FROM EMP WHERE EMPNO=-1);                                                                                                 |                                                                                                                                                                                                   | CREATE TABLE JOLLY AS SELECT * FROM EMP WHERE EMPNO=-1;                                                                                                                                         |
 
 
 

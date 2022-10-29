@@ -2,7 +2,7 @@
 
 |  No.  | Questions                                                                                           |
 | :---: | --------------------------------------------------------------------------------------------------- |
-|       | [What is database?](#**ques-What-is-database**)                                                     |
+|       | [What is database?](#ques-what-is-database)                                                     |
 |       | [what is sql?](#ques-Ques-What-is-Sql)                                                              |
 |       | [What Is DBMS?](#Ques-What-is-DBMS)                                                                 |
 |       | [What Is RDBMS?](#Ques-What-is-RDBMS)                                                               |
